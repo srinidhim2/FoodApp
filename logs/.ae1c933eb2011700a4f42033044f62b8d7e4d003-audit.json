@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/srinidhi/Code/FOOD-APP/logs/.ae1c933eb2011700a4f42033044f62b8d7e4d003-audit.json",
+    "files": [
+        {
+            "date": 1749672608544,
+            "name": "/home/srinidhi/Code/FOOD-APP/logs/logfile_2025-06-12_bkp.log",
+            "hash": "49ec0f04e76f66cc0c655b10560f91ea76c77979c5b63256e9b90336eb583275"
+        }
+    ],
+    "hashType": "sha256"
+}

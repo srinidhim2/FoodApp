@@ -1,0 +1,1681 @@
+2025-06-11T19:13:05.644Z [DEBUG]: PUT, UpdateUser Request:6845b138bc3786132fb42ff2 
+ {
+  "userName": "newUserName",
+  "phone": "111111111",
+  "address": "newAddress"
+}
+2025-06-11T19:13:05.765Z [DEBUG]: PUT, UpdateUser Response 200:
+{
+  _id: new ObjectId('6845b138bc3786132fb42ff2'),
+  userName: 'myname6',
+  email: 'myname6@email.com',
+  address: 'newAddress',
+  phone: '111111111',
+  userType: 'admin',
+  profile: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s',
+  createdAt: 2025-06-08T15:50:16.124Z,
+  updatedAt: 2025-06-11T17:39:26.560Z,
+  __v: 0
+}
+2025-06-11T19:13:44.266Z [DEBUG]: PUT, UpdateUser Request:6845b138bc3786132fb42ff2 
+ {
+  "userName": "newUserName",
+  "phone": "111111111",
+  "address": "newAddress"
+}
+2025-06-11T19:13:44.333Z [DEBUG]: PUT, UpdateUser Response 200:
+{
+  _id: new ObjectId('6845b138bc3786132fb42ff2'),
+  userName: 'myname6',
+  email: 'myname6@email.com',
+  address: 'newAddress',
+  phone: '111111111',
+  userType: 'admin',
+  profile: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s',
+  createdAt: 2025-06-08T15:50:16.124Z,
+  updatedAt: 2025-06-11T17:39:26.560Z,
+  __v: 0
+}
+2025-06-11T19:16:31.769Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/authController.js:50
+        logger.info(`User Created ${}`)
+                                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/authRouter.js:2:49)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:19:20.802Z [ERROR]: Error: Missing initializer in const declaration Missing initializer in const declaration
+/home/srinidhi/Code/FOOD-APP/controllers/authController.js:6
+const l
+      ^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/authRouter.js:2:49)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:19:43.217Z [ERROR]: POST: Create User: User Already Exists with mail id admin@email.com
+2025-06-11T19:20:33.597Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/authController.js:42
+            logger.error(`POST: Create User: User Already Exists with mail id ${isExist.email} \n ${}`)
+                                                                                                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/authRouter.js:2:49)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:20:56.839Z [ERROR]: POST: Create User: User Already Exists with mail id admin@email.com 
+ {
+  "userName": "admin",
+  "email": "admin@email.com",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "password": "admin",
+  "answer": "answer"
+}
+2025-06-11T19:20:57.822Z [ERROR]: POST: Create User: User Already Exists with mail id admin@email.com 
+ {
+  "userName": "admin",
+  "email": "admin@email.com",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "password": "admin",
+  "answer": "answer"
+}
+2025-06-11T19:22:22.728Z [ERROR]: POST: Create User: User Already Exists with mail id admin@email.com 
+ {
+  "userName": "admin",
+  "email": "admin@email.com",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "password": "admin",
+  "answer": "answer"
+}
+2025-06-11T19:22:42.502Z [ERROR]: POST: Create User: User Already Exists with mail id admin@email.com 
+ {
+  "userName": "admin",
+  "email": "admin@email.com",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "password": "admin",
+  "answer": "answer"
+}
+2025-06-11T19:23:06.070Z [ERROR]: Error: isExists is not defined isExists is not defined
+ReferenceError: isExists is not defined
+    at registerController (/home/srinidhi/Code/FOOD-APP/controllers/authController.js:41:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-11T19:24:04.616Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/authController.js:77
+        logger.error(`User with email is not registered ${}`)
+                                                          ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/authRouter.js:2:49)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:24:20.170Z [ERROR]: Error: eamil is not defined eamil is not defined
+ReferenceError: eamil is not defined
+    at loginController (/home/srinidhi/Code/FOOD-APP/controllers/authController.js:77:59)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-11T19:24:30.895Z [ERROR]: User with email is not registered myname6@email.com
+2025-06-11T19:25:16.078Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/authController.js:86
+    logger.error(`Invalid credentials ${}`)
+                                        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/authRouter.js:2:49)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:25:57.784Z [ERROR]: Invalid credentials {
+  "email": "admin@email.com",
+  "password": "admin1"
+}
+2025-06-11T19:26:50.005Z [ERROR]: Error: Invalid or unexpected token Invalid or unexpected token
+/home/srinidhi/Code/FOOD-APP/controllers/authController.js:84
+        logger.info('LoginSuccess)
+                    ^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/authRouter.js:2:49)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:26:52.595Z [ERROR]: Error: missing ) after argument list missing ) after argument list
+/home/srinidhi/Code/FOOD-APP/controllers/authController.js:84
+        logger.info(`LoginSuccess)
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/authRouter.js:2:49)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:27:27.582Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/authController.js:85
+        logger.debug(`POST: LoginSuccess: ${}`)
+                                            ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/authRouter.js:2:49)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:27:51.037Z [INFO]: POST: LoginSuccess: admin@email.com
+2025-06-11T19:27:51.041Z [DEBUG]: POST: LoginSuccess: {
+  "email": "admin@email.com",
+  "password": "admin"
+}
+2025-06-11T19:28:31.383Z [INFO]: POST: LoginSuccess: admin@email.com 
+ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDlkNWNhOWY2NDQ2MmZjOTM5MjEwOSIsImVtYWlsIjoiYWRtaW5AZW1haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlhdCI6MTc0OTY3MDExMSwiZXhwIjoxNzQ5NjczNzExfQ.TKuogmsiZqYPb22yUSmyj5Zdy0LzVJCecK5unEVXA_A
+2025-06-11T19:28:31.391Z [DEBUG]: POST: LoginSuccess: {
+  "email": "admin@email.com",
+  "password": "admin"
+}
+2025-06-11T19:30:23.016Z [ERROR]: Error: Missing } in template expression Missing } in template expression
+/home/srinidhi/Code/FOOD-APP/controllers/authController.js:36
+            logger.error(`POST: Create User: 400 Bad Request ${message:result.error.details[0].message}`)
+                                                               ^^^^^^^
+
+SyntaxError: Missing } in template expression
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/authRouter.js:2:49)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:30:49.841Z [ERROR]: POST: Create User: 400 Bad Request "email" must be a valid email
+2025-06-11T19:39:03.939Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:55
+            logger.error(`PUT: UpdateUser: 404 User Not Found ${req.session.}`)
+                                                                            ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:39:19.091Z [ERROR]: TokenExpiredError: jwt expired
+TokenExpiredError: jwt expired
+    at /home/srinidhi/Code/FOOD-APP/node_modules/jsonwebtoken/verify.js:190:21
+    at getSecret (/home/srinidhi/Code/FOOD-APP/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/srinidhi/Code/FOOD-APP/node_modules/jsonwebtoken/verify.js:101:10)
+    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:7:29)
+    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)
+    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)
+    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)
+    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15
+2025-06-11T19:40:09.004Z [ERROR]: Error: Missing } in template expression Missing } in template expression
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:40
+            logger.error(`PUT: Get User By Id: 404 User Not Found ${req.p].user.id}`)
+                                                                    ^^^^^
+
+SyntaxError: Missing } in template expression
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:40:48.741Z [ERROR]: Error: Invalid or unexpected token Invalid or unexpected token
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:43
+        logger.info('GET: Get User By Id:200`)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:40:58.843Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:43
+        logger.info(`GET: Get User By Id:200 ${}`)
+                                               ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:41:29.254Z [INFO]: POST: LoginSuccess: admin@email.com 
+ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDlkNWNhOWY2NDQ2MmZjOTM5MjEwOSIsImVtYWlsIjoiYWRtaW5AZW1haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlhdCI6MTc0OTY3MDg4OSwiZXhwIjoxNzQ5Njc0NDg5fQ.5jSUHhUu54Jhk6EnIbJxyrGJRc8U5luOST-Dk5AIxvI
+2025-06-11T19:41:29.259Z [DEBUG]: POST: LoginSuccess: {
+  "email": "admin@email.com",
+  "password": "admin"
+}
+2025-06-11T19:42:16.757Z [ERROR]: GET: Get User By Id: 404 User Not Found 684345bf0781c3f444974bac
+2025-06-11T19:42:37.641Z [ERROR]: Error: ext is not defined
+ReferenceError: ext is not defined
+    at adminAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:40:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-11T19:43:36.596Z [INFO]: GET: Get User By Id:200 {
+  "_id": "6849d5ca9f64462fc9392109",
+  "userName": "admin",
+  "email": "admin@email.com",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "createdAt": "2025-06-11T19:15:22.122Z",
+  "updatedAt": "2025-06-11T19:15:22.122Z",
+  "__v": 0
+}
+2025-06-11T19:44:40.059Z [INFO]: GET: Get User By Id:200 {
+  "_id": "6849d5ca9f64462fc9392109",
+  "userName": "admin",
+  "email": "admin@email.com",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "createdAt": "2025-06-11T19:15:22.122Z",
+  "updatedAt": "2025-06-11T19:15:22.122Z",
+  "__v": 0
+}
+2025-06-11T19:44:40.064Z [ERROR]: Error: rs is not defined rs is not defined
+ReferenceError: rs is not defined
+    at getUserByIdController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:45:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-11T19:45:36.985Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:28
+        logger.info(`GET: Get Usrs: ${}`)
+                                      ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:46:14.226Z [INFO]: GET: Get Usrs: 200
+2025-06-11T19:46:14.232Z [DEBUG]: [
+  {
+    "_id": "6849d5ca9f64462fc9392109",
+    "userName": "admin",
+    "email": "admin@email.com",
+    "password": "$2b$10$ctZOCddC8QxWVNBs1XdbV.PEff7D.EpDHdDs5v52d6JqgAVKd83jW",
+    "address": "myaddress",
+    "phone": "1234567111",
+    "userType": "admin",
+    "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+    "answer": "answer",
+    "createdAt": "2025-06-11T19:15:22.122Z",
+    "updatedAt": "2025-06-11T19:15:22.122Z",
+    "__v": 0
+  }
+]
+2025-06-11T19:47:29.250Z [ERROR]: Error: Invalid or unexpected token Invalid or unexpected token
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:16
+        logger.info('GET: Get User: 200: `)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:47:34.629Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:16
+        logger.info(`GET: Get User: 200: ${}`)
+                                           ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T19:48:04.890Z [INFO]: GET: Get User: 200: {
+  "_id": "6849d5ca9f64462fc9392109",
+  "userName": "admin",
+  "email": "admin@email.com",
+  "password": "$2b$10$ctZOCddC8QxWVNBs1XdbV.PEff7D.EpDHdDs5v52d6JqgAVKd83jW",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "createdAt": "2025-06-11T19:15:22.122Z",
+  "updatedAt": "2025-06-11T19:15:22.122Z",
+  "__v": 0
+}
+2025-06-11T19:48:12.573Z [INFO]: GET: Get User: 200: {
+  "_id": "6849d5ca9f64462fc9392109",
+  "userName": "admin",
+  "email": "admin@email.com",
+  "password": "$2b$10$ctZOCddC8QxWVNBs1XdbV.PEff7D.EpDHdDs5v52d6JqgAVKd83jW",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "createdAt": "2025-06-11T19:15:22.122Z",
+  "updatedAt": "2025-06-11T19:15:22.122Z",
+  "__v": 0
+}
+2025-06-11T19:50:28.842Z [ERROR]: Error: logger is not defined logger is not defined
+ReferenceError: logger is not defined
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/server.js:30:38)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:173:12)
+    at node:internal/main/run_main_module:28:49
+2025-06-11T19:51:16.962Z [INFO]: GET: Get User: 200: {
+  "_id": "6849d5ca9f64462fc9392109",
+  "userName": "admin",
+  "email": "admin@email.com",
+  "password": "$2b$10$ctZOCddC8QxWVNBs1XdbV.PEff7D.EpDHdDs5v52d6JqgAVKd83jW",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "createdAt": "2025-06-11T19:15:22.122Z",
+  "updatedAt": "2025-06-11T19:15:22.122Z",
+  "__v": 0
+}
+2025-06-11T19:51:16.979Z [DEBUG]: ::1 - - [11/Jun/2025:19:51:16 +0000] "GET /api/user/getUser HTTP/1.1" 200 433 "-" "PostmanRuntime/7.44.0"
+2025-06-11T19:51:51.563Z [INFO]: GET: Get User: 200: {
+  "_id": "6849d5ca9f64462fc9392109",
+  "userName": "admin",
+  "email": "admin@email.com",
+  "password": "$2b$10$ctZOCddC8QxWVNBs1XdbV.PEff7D.EpDHdDs5v52d6JqgAVKd83jW",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "createdAt": "2025-06-11T19:15:22.122Z",
+  "updatedAt": "2025-06-11T19:15:22.122Z",
+  "__v": 0
+}
+2025-06-11T19:51:51.578Z [DEBUG]: [0mGET /api/user/getUser [32m200[0m 75.623 ms - 433[0m
+2025-06-11T19:53:07.394Z [INFO]: GET: Get User: 200: {
+  "_id": "6849d5ca9f64462fc9392109",
+  "userName": "admin",
+  "email": "admin@email.com",
+  "password": "$2b$10$ctZOCddC8QxWVNBs1XdbV.PEff7D.EpDHdDs5v52d6JqgAVKd83jW",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "createdAt": "2025-06-11T19:15:22.122Z",
+  "updatedAt": "2025-06-11T19:15:22.122Z",
+  "__v": 0
+}
+2025-06-11T19:53:07.409Z [DEBUG]: [0mGET /api/user/getUser [32m200[0m 75.866 ms - 433[0m
+2025-06-11T19:54:02.612Z [INFO]: GET: Get User: 200: {
+  "_id": "6849d5ca9f64462fc9392109",
+  "userName": "admin",
+  "email": "admin@email.com",
+  "password": "$2b$10$ctZOCddC8QxWVNBs1XdbV.PEff7D.EpDHdDs5v52d6JqgAVKd83jW",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "createdAt": "2025-06-11T19:15:22.122Z",
+  "updatedAt": "2025-06-11T19:15:22.122Z",
+  "__v": 0
+}
+2025-06-11T19:54:02.630Z [INFO]: [0mGET /api/user/getUser [32m200[0m 85.694 ms - 433[0m
+2025-06-11T19:58:33.447Z [DEBUG]: GET: Get User: 200: {
+  "_id": "6849d5ca9f64462fc9392109",
+  "userName": "admin",
+  "email": "admin@email.com",
+  "password": "$2b$10$ctZOCddC8QxWVNBs1XdbV.PEff7D.EpDHdDs5v52d6JqgAVKd83jW",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "createdAt": "2025-06-11T19:15:22.122Z",
+  "updatedAt": "2025-06-11T19:15:22.122Z",
+  "__v": 0
+}
+2025-06-11T19:58:33.461Z [INFO]: [0mGET /api/user/getUser [32m200[0m 73.178 ms - 433[0m
+2025-06-11T19:58:49.828Z [DEBUG]: GET: Get User: 200: {
+  "_id": "6849d5ca9f64462fc9392109",
+  "userName": "admin",
+  "email": "admin@email.com",
+  "password": "$2b$10$ctZOCddC8QxWVNBs1XdbV.PEff7D.EpDHdDs5v52d6JqgAVKd83jW",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "createdAt": "2025-06-11T19:15:22.122Z",
+  "updatedAt": "2025-06-11T19:15:22.122Z",
+  "__v": 0
+}
+2025-06-11T19:58:49.832Z [INFO]: [0mGET /api/user/getUser [32m200[0m 42.509 ms - 433[0m
+2025-06-11T19:59:02.562Z [ERROR]: Error: logger is not defined logger is not defined
+ReferenceError: logger is not defined
+    at /home/srinidhi/Code/FOOD-APP/routes/app.js:11:5
+    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:342:13)
+    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:297:9
+    at processParams (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:582:12)
+    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:291:5)
+    at Function.handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:186:3)
+    at router (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:60:12)
+    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:342:13)
+2025-06-11T19:59:02.576Z [INFO]: [0mGET /api/user/getUser [31m500[0m 14.087 ms - 33[0m
+2025-06-11T19:59:17.044Z [ERROR]: Error: The "id" argument must be of type string. Received undefined The "id" argument must be of type string. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at Module.require (node:internal/modules/cjs/loader:1304:3)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/app.js:6:18)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/server.js:19:15)
+2025-06-11T19:59:26.789Z [INFO]: START GET /api/user/getUser
+2025-06-11T19:59:26.857Z [DEBUG]: GET: Get User: 200: {
+  "_id": "6849d5ca9f64462fc9392109",
+  "userName": "admin",
+  "email": "admin@email.com",
+  "password": "$2b$10$ctZOCddC8QxWVNBs1XdbV.PEff7D.EpDHdDs5v52d6JqgAVKd83jW",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "admin",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "createdAt": "2025-06-11T19:15:22.122Z",
+  "updatedAt": "2025-06-11T19:15:22.122Z",
+  "__v": 0
+}
+2025-06-11T19:59:26.871Z [INFO]: [0mGET /api/user/getUser [32m200[0m 78.658 ms - 433[0m
+2025-06-11T19:59:56.536Z [INFO]: START POST /api/auth/login
+2025-06-11T19:59:56.742Z [INFO]: POST: LoginSuccess: admin@email.com 
+ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDlkNWNhOWY2NDQ2MmZjOTM5MjEwOSIsImVtYWlsIjoiYWRtaW5AZW1haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlhdCI6MTc0OTY3MTk5NiwiZXhwIjoxNzQ5Njc1NTk2fQ.HyoK91WtHwRLg-oEa3vSnrhdzD1WL1cFxSQiGvVQc1Y
+2025-06-11T19:59:56.742Z [DEBUG]: POST: LoginSuccess: {
+  "email": "admin@email.com",
+  "password": "admin"
+}
+2025-06-11T19:59:56.745Z [INFO]: [0mPOST /api/auth/login [32m201[0m 229.059 ms - 268[0m
+2025-06-11T20:10:35.706Z [INFO]: START POST /api/auth/login
+2025-06-11T20:10:35.815Z [INFO]: POST: LoginSuccess: admin@email.com 
+ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDlkNWNhOWY2NDQ2MmZjOTM5MjEwOSIsImVtYWlsIjoiYWRtaW5AZW1haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlhdCI6MTc0OTY3MjYzNSwiZXhwIjoxNzQ5Njc2MjM1fQ.icDvqZ-fh3P2S9Rmys1i0uZBwb8ZzDePT2edx7CtSiE
+2025-06-11T20:10:35.819Z [INFO]: [0mPOST /api/auth/login [32m201[0m 118.711 ms - 268[0m
+2025-06-11T20:11:03.928Z [INFO]: START POST /api/auth/login
+2025-06-11T20:11:04.028Z [INFO]: POST: LoginSuccess: admin@email.com 
+ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDlkNWNhOWY2NDQ2MmZjOTM5MjEwOSIsImVtYWlsIjoiYWRtaW5AZW1haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlhdCI6MTc0OTY3MjY2NCwiZXhwIjoxNzQ5Njc2MjY0fQ.-Al7B4vgxiMLO73hgJ5QW7gtFCDGjZa3taqD7VOhYsU
+2025-06-11T20:11:04.032Z [INFO]: [0mPOST /api/auth/login [32m201[0m 109.870 ms - 268[0m
+2025-06-11T20:12:34.555Z [INFO]: START POST /api/auth/login
+2025-06-11T20:12:34.660Z [INFO]: POST: LoginSuccess: admin@email.com 
+ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDlkNWNhOWY2NDQ2MmZjOTM5MjEwOSIsImVtYWlsIjoiYWRtaW5AZW1haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlhdCI6MTc0OTY3Mjc1NCwiZXhwIjoxNzQ5Njc2MzU0fQ.rsLETtc_HAurqNK9Q44wxF80kOL2xEgxPymuv5UaGOc
+2025-06-11T20:12:34.660Z [DEBUG]: POST: LoginSuccess: {
+  "email": "admin@email.com",
+  "password": "admin"
+}
+2025-06-11T20:12:34.664Z [INFO]: [0mPOST /api/auth/login [32m201[0m 113.444 ms - 268[0m
+2025-06-11T20:15:10.767Z [INFO]: START POST /api/auth/login
+2025-06-11T20:15:10.872Z [INFO]: POST: LoginSuccess: admin@email.com 
+ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDlkNWNhOWY2NDQ2MmZjOTM5MjEwOSIsImVtYWlsIjoiYWRtaW5AZW1haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlhdCI6MTc0OTY3MjkxMCwiZXhwIjoxNzQ5Njc2NTEwfQ.eklNRRhkf86Z5Ft-F5G6wsa2T4N1ibwb46dTf8AQBAA
+2025-06-11T20:15:10.872Z [DEBUG]: [44mPOST: LoginSuccess: {
+  "email": "admin@email.com",
+  "password": "admin"
+}[49m
+2025-06-11T20:15:10.875Z [INFO]: [0mPOST /api/auth/login [32m201[0m 114.156 ms - 268[0m
+2025-06-12T04:18:31.571Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:77
+    } catch (error) {
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:19:48.406Z [ERROR]: Error: Unexpected token 'const' Unexpected token 'const'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:78
+        const newPass = 
+        ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:19:56.438Z [ERROR]: Error: Unexpected token 'const' Unexpected token 'const'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:78
+        const newPass = req.body.newPass
+        ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:19:59.177Z [ERROR]: Error: Unexpected token 'const' Unexpected token 'const'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:78
+        const newPass = req.body.newPassword
+        ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:20:00.590Z [ERROR]: Error: Unexpected token 'const' Unexpected token 'const'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:78
+        const newPass = req.body.newPassword
+        ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:20:05.842Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:80
+    } catch (error) {
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:20:07.296Z [ERROR]: Error: Missing initializer in const declaration Missing initializer in const declaration
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:79
+        const re
+              ^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:20:11.121Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:80
+    } catch (error) {
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:20:17.338Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:80
+    } catch (error) {
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:20:21.589Z [ERROR]: Error: Missing initializer in const declaration Missing initializer in const declaration
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:79
+        const reNewPass = req.body,reNewPassword
+                                   ^^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:20:28.004Z [ERROR]: Error: Missing initializer in const declaration Missing initializer in const declaration
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:79
+        const reNewPass = req.body,reEnterNewPassword
+                                   ^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:20:32.817Z [ERROR]: Error: Missing initializer in const declaration Missing initializer in const declaration
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:79
+        const reNewPass = req.body,reEnterNewPassword
+                                   ^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:20:49.640Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:81
+    } catch (error) {
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:20:56.681Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:82
+        }
+        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:21:30.874Z [ERROR]: Error: Unexpected token 'if' Unexpected token 'if'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:81
+        if(newPass != reNewPass){
+        ^^
+
+SyntaxError: Unexpected token 'if'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:22:15.853Z [ERROR]: Error: Unexpected token 'if' Unexpected token 'if'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:82
+        if(newPass != reNewPass){
+        ^^
+
+SyntaxError: Unexpected token 'if'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:22:42.793Z [ERROR]: Error: Unexpected token 'if' Unexpected token 'if'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:82
+        if(newPass != reNewPass){
+        ^^
+
+SyntaxError: Unexpected token 'if'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:26:56.676Z [ERROR]: Error: Unexpected string Unexpected string
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:84
+            return res.status(400).send({'message:'})
+                                         ^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:26:58.138Z [ERROR]: Error: Invalid or unexpected token Invalid or unexpected token
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:84
+            return res.status(400).send({'message:''})
+                                                   ^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:27:07.936Z [ERROR]: Error: Unexpected identifier 'Incorrect' Unexpected identifier 'Incorrect'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:84
+            return res.status(400).send({'message:'Incorrect Password'})
+                                                   ^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'Incorrect'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:27:50.951Z [ERROR]: Error: Unexpected identifier 'Incorrect' Unexpected identifier 'Incorrect'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:84
+            return res.status(400).send({'message:'Incorrect Password'})
+                                                   ^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'Incorrect'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:29:33.359Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:95
+    } catch (error) {
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:30:18.983Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:97
+    } catch (error) {
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:31:15.878Z [ERROR]: Error: argument handler is required argument handler is required
+TypeError: argument handler is required
+    at Route.<computed> [as post] (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:221:13)
+    at Router.<computed> [as post] (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:448:19)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:12:12)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/app.js:5:24)
+2025-06-12T04:31:17.268Z [ERROR]: Error: argument handler is required argument handler is required
+TypeError: argument handler is required
+    at Route.<computed> [as post] (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:221:13)
+    at Router.<computed> [as post] (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:448:19)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:12:12)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/app.js:5:24)
+2025-06-12T04:31:20.052Z [ERROR]: Error: argument handler is required argument handler is required
+TypeError: argument handler is required
+    at Route.<computed> [as post] (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:221:13)
+    at Router.<computed> [as post] (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:448:19)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:12:12)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/app.js:5:24)
+2025-06-12T04:31:24.815Z [ERROR]: Error: argument handler is required argument handler is required
+TypeError: argument handler is required
+    at Route.<computed> [as post] (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:221:13)
+    at Router.<computed> [as post] (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:448:19)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:12:12)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/app.js:5:24)
+2025-06-12T04:31:38.862Z [ERROR]: Error: cha is not defined cha is not defined
+ReferenceError: cha is not defined
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:103:103)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:31:42.589Z [ERROR]: Error: rese is not defined rese is not defined
+ReferenceError: rese is not defined
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:103:103)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:34:32.181Z [INFO]: START POST /api/user/resetPassword
+2025-06-12T04:34:32.206Z [ERROR]: JsonWebTokenError: jwt must be provided
+JsonWebTokenError: jwt must be provided
+    at module.exports [as verify] (/home/srinidhi/Code/FOOD-APP/node_modules/jsonwebtoken/verify.js:60:17)
+    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:7:29)
+    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)
+    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)
+    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)
+    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15
+    at processParams (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:582:12)
+    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:291:5)
+2025-06-12T04:34:32.220Z [INFO]: [0mPOST /api/user/resetPassword [33m401[0m 101.651 ms - 128[0m
+2025-06-12T04:34:43.032Z [INFO]: START POST /api/auth/login
+2025-06-12T04:34:43.256Z [INFO]: POST: LoginSuccess: admin@email.com 
+ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDlkNWNhOWY2NDQ2MmZjOTM5MjEwOSIsImVtYWlsIjoiYWRtaW5AZW1haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlhdCI6MTc0OTcwMjg4MywiZXhwIjoxNzQ5NzA2NDgzfQ.V_bO0kmdpz_5mhBjJ-R1RVh_WTvVo-YgV23gX61rYKo
+2025-06-12T04:34:43.256Z [DEBUG]: POST: LoginSuccess: {
+  "email": "admin@email.com",
+  "password": "admin"
+}
+2025-06-12T04:34:43.259Z [INFO]: [0mPOST /api/auth/login [32m201[0m 227.194 ms - 268[0m
+2025-06-12T04:35:07.898Z [INFO]: START POST /api/user/resetPassword
+2025-06-12T04:35:07.940Z [ERROR]: Error: bcrypt is not defined bcrypt is not defined
+ReferenceError: bcrypt is not defined
+    at resetPasswordController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:81:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-12T04:35:07.943Z [INFO]: [0mPOST /api/user/resetPassword [31m500[0m 45.213 ms - 33[0m
+2025-06-12T04:35:22.450Z [ERROR]: Error: Cannot find module 'b'
+Require stack:
+- /home/srinidhi/Code/FOOD-APP/controllers/userController.js
+- /home/srinidhi/Code/FOOD-APP/routes/userRoutes.js
+- /home/srinidhi/Code/FOOD-APP/routes/app.js
+- /home/srinidhi/Code/FOOD-APP/server.js Cannot find module 'b'
+Require stack:
+- /home/srinidhi/Code/FOOD-APP/controllers/userController.js
+- /home/srinidhi/Code/FOOD-APP/routes/userRoutes.js
+- /home/srinidhi/Code/FOOD-APP/routes/app.js
+- /home/srinidhi/Code/FOOD-APP/server.js
+Error: Cannot find module 'b'
+Require stack:
+- /home/srinidhi/Code/FOOD-APP/controllers/userController.js
+- /home/srinidhi/Code/FOOD-APP/routes/userRoutes.js
+- /home/srinidhi/Code/FOOD-APP/routes/app.js
+- /home/srinidhi/Code/FOOD-APP/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:4:16)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-06-12T04:35:25.088Z [INFO]: START POST /api/user/resetPassword
+2025-06-12T04:35:25.294Z [ERROR]: Incorrect Password
+2025-06-12T04:35:25.306Z [INFO]: [0mPOST /api/user/resetPassword [33m400[0m 231.241 ms - 31[0m
+2025-06-12T04:35:56.281Z [ERROR]: Error: Unexpected token 'if' Unexpected token 'if'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:84
+        if(!isMatch){
+        ^^
+
+SyntaxError: Unexpected token 'if'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:121)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:35:59.730Z [ERROR]: Error: Unexpected token 'if' Unexpected token 'if'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:84
+        if(!isMatch){
+        ^^
+
+SyntaxError: Unexpected token 'if'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:121)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:36:07.718Z [ERROR]: Error: Unexpected token 'if' Unexpected token 'if'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:84
+        if(!isMatch){
+        ^^
+
+SyntaxError: Unexpected token 'if'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:121)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:36:25.391Z [ERROR]: Error: Unexpected token 'if' Unexpected token 'if'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:84
+        if(!isMatch){
+        ^^
+
+SyntaxError: Unexpected token 'if'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:121)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:36:27.198Z [ERROR]: Error: Unexpected token 'if' Unexpected token 'if'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:84
+        if(!isMatch){
+        ^^
+
+SyntaxError: Unexpected token 'if'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:121)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T04:36:59.143Z [INFO]: START POST /api/user/resetPassword
+2025-06-12T04:36:59.204Z [ERROR]: Incorrect Answer
+2025-06-12T04:36:59.214Z [INFO]: [0mPOST /api/user/resetPassword [33m400[0m 85.347 ms - 29[0m
+2025-06-12T04:39:43.616Z [INFO]: START POST /api/user/resetPassword
+2025-06-12T04:39:43.677Z [ERROR]: Error: data and salt arguments required data and salt arguments required
+Error: data and salt arguments required
+    at Object.hash (/home/srinidhi/Code/FOOD-APP/node_modules/bcrypt/bcrypt.js:133:17)
+    at /home/srinidhi/Code/FOOD-APP/node_modules/bcrypt/promises.js:26:12
+    at new Promise (<anonymous>)
+    at Object.promise (/home/srinidhi/Code/FOOD-APP/node_modules/bcrypt/promises.js:17:12)
+    at Object.hash (/home/srinidhi/Code/FOOD-APP/node_modules/bcrypt/bcrypt.js:129:25)
+    at resetPasswordController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:96:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-12T04:39:43.689Z [INFO]: [0mPOST /api/user/resetPassword [31m500[0m 85.878 ms - 44[0m
+2025-06-12T04:40:23.185Z [INFO]: START POST /api/user/resetPassword
+2025-06-12T04:40:23.480Z [INFO]: [0mPOST /api/user/resetPassword [32m201[0m 314.174 ms - 37[0m
+2025-06-12T04:40:42.665Z [INFO]: START POST /api/auth/login
+2025-06-12T04:40:42.872Z [ERROR]: Invalid credentials {
+  "email": "admin@email.com",
+  "password": "admin"
+}
+2025-06-12T04:40:42.874Z [INFO]: [0mPOST /api/auth/login [33m401[0m 209.710 ms - 35[0m
+2025-06-12T04:40:48.906Z [INFO]: START POST /api/auth/login
+2025-06-12T04:40:48.914Z [INFO]: [0mPOST /api/auth/login [33m400[0m 8.145 ms - 68[0m
+2025-06-12T04:40:49.115Z [INFO]: POST: LoginSuccess: admin@email.com 
+ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDlkNWNhOWY2NDQ2MmZjOTM5MjEwOSIsImVtYWlsIjoiYWRtaW5AZW1haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlhdCI6MTc0OTcwMzI0OSwiZXhwIjoxNzQ5NzA2ODQ5fQ.76vnCKyevX3JhvZhaA7dy0-f8-kdYHpSqa9gDC-D4L8
+2025-06-12T04:40:49.116Z [DEBUG]: POST: LoginSuccess: {
+  "email": "admin@email.com",
+  "password": "abcd"
+}
+2025-06-12T04:41:02.736Z [INFO]: START POST /api/user/resetPassword
+2025-06-12T04:41:02.961Z [INFO]: [0mPOST /api/user/resetPassword [32m201[0m 226.706 ms - 37[0m
+2025-06-12T04:41:08.706Z [INFO]: START POST /api/auth/login
+2025-06-12T04:41:08.710Z [INFO]: [0mPOST /api/auth/login [33m400[0m 4.351 ms - 68[0m
+2025-06-12T04:41:08.910Z [ERROR]: Invalid credentials {
+  "email": "admin@email.com",
+  "password": "abcd"
+}
+2025-06-12T04:41:15.258Z [INFO]: START POST /api/auth/login
+2025-06-12T04:41:15.453Z [INFO]: POST: LoginSuccess: admin@email.com 
+ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDlkNWNhOWY2NDQ2MmZjOTM5MjEwOSIsImVtYWlsIjoiYWRtaW5AZW1haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlhdCI6MTc0OTcwMzI3NSwiZXhwIjoxNzQ5NzA2ODc1fQ.SBodXuGda-amW9fFrtl1R6DezvITJNEDDmVHrFemb00
+2025-06-12T04:41:15.454Z [DEBUG]: POST: LoginSuccess: {
+  "email": "admin@email.com",
+  "password": "abcde"
+}
+2025-06-12T04:41:15.455Z [INFO]: [0mPOST /api/auth/login [32m201[0m 197.037 ms - 268[0m
+2025-06-12T04:42:58.471Z [INFO]: START POST /api/user/resetPassword
+2025-06-12T04:42:58.731Z [INFO]: Password Change Success
+2025-06-12T04:42:58.742Z [INFO]: [0mPOST /api/user/resetPassword [32m201[0m 285.089 ms - 37[0m
+2025-06-12T05:18:40.669Z [ERROR]: Error: argument handler is required argument handler is required
+TypeError: argument handler is required
+    at Route.<computed> [as delete] (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:221:13)
+    at Router.<computed> [as delete] (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:448:19)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:13:18)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/app.js:5:24)
+2025-06-12T05:18:42.753Z [ERROR]: Error: argument handler is required argument handler is required
+TypeError: argument handler is required
+    at Route.<computed> [as delete] (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:221:13)
+    at Router.<computed> [as delete] (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:448:19)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:13:18)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/app.js:5:24)
+2025-06-12T05:18:56.277Z [ERROR]: Error: dele is not defined dele is not defined
+ReferenceError: dele is not defined
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:13:40)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/app.js:5:24)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:26:41.508Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:112
+    } catch (error) {
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:27:05.098Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:113
+    } catch (error) {
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:27:33.993Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:112
+        const user = User.findByIdAndDelete({_id:})
+                                                 ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:28:05.901Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:115
+    } catch (error) {
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:28:13.658Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:114
+        res.status(204).send({'message':})
+                                        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:28:46.000Z [INFO]: START POST /api/auth/Register
+2025-06-12T05:28:46.271Z [INFO]: POST: User Created: {
+  "userName": "client",
+  "email": "client@email.com",
+  "password": "$2b$10$4D0fzIaKZXAFUQo894dW5.yMiG56zXnYK0d7PTTTZzKDJfk2dDd1O",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "client",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "_id": "684a658ef21528c188f34729",
+  "createdAt": "2025-06-12T05:28:46.228Z",
+  "updatedAt": "2025-06-12T05:28:46.228Z",
+  "__v": 0
+}
+2025-06-12T05:28:46.284Z [INFO]: [0mPOST /api/auth/Register [32m201[0m 298.753 ms - 473[0m
+2025-06-12T05:28:52.890Z [INFO]: START POST /api/auth/login
+2025-06-12T05:28:53.087Z [INFO]: POST: LoginSuccess: admin@email.com 
+ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDlkNWNhOWY2NDQ2MmZjOTM5MjEwOSIsImVtYWlsIjoiYWRtaW5AZW1haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlhdCI6MTc0OTcwNjEzMywiZXhwIjoxNzQ5NzA5NzMzfQ.xZOrlMXJFDVYr42Vo2Q-V8lV3BcG52wYXf2bIsMAe1k
+2025-06-12T05:28:53.087Z [DEBUG]: POST: LoginSuccess: {
+  "email": "admin@email.com",
+  "password": "abcde"
+}
+2025-06-12T05:28:53.089Z [INFO]: [0mPOST /api/auth/login [32m201[0m 199.406 ms - 268[0m
+2025-06-12T05:30:26.052Z [INFO]: START DELETE /api/user/deleteUser/684a658ef21528c188f34729
+2025-06-12T05:30:26.070Z [INFO]: [0mDELETE /api/user/deleteUser/684a658ef21528c188f34729 [32m204[0m 16.839 ms - -[0m
+2025-06-12T05:31:20.657Z [INFO]: START DELETE /api/user/deleteUser/684a658ef21528c188f34729
+2025-06-12T05:31:20.664Z [INFO]: [0mDELETE /api/user/deleteUser/684a658ef21528c188f34729 [32m204[0m 6.804 ms - -[0m
+2025-06-12T05:31:38.647Z [ERROR]: Error: await is only valid in async functions and the top level bodies of modules await is only valid in async functions and the top level bodies of modules
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:112
+        const user = await User.findByIdAndDelete({_id:id})
+                     ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:31:47.929Z [INFO]: START DELETE /api/user/deleteUser/684a658ef21528c188f34729
+2025-06-12T05:31:49.266Z [INFO]: [0mDELETE /api/user/deleteUser/684a658ef21528c188f34729 [32m204[0m 1333.702 ms - -[0m
+2025-06-12T05:32:16.449Z [INFO]: START DELETE /api/user/deleteUser/684a658ef21528c188f34729
+2025-06-12T05:32:16.518Z [INFO]: [0mDELETE /api/user/deleteUser/684a658ef21528c188f34729 [32m204[0m 67.777 ms - -[0m
+2025-06-12T05:32:35.321Z [ERROR]: Error: Invalid or unexpected token Invalid or unexpected token
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:115
+            logger.error('User Not found)
+                         ^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:32:37.581Z [ERROR]: Error: Unexpected end of input Unexpected end of input
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:123
+module.exports = {getUserController, getUsersController, getUserByIdController, updateUserController, resetPasswordController, deleteUserController}
+                                                                                                                                                    
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:32:57.491Z [ERROR]: Error: Unexpected string Unexpected string
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:116
+            return res.status(404).send({'message'})
+                                         ^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:33:11.961Z [INFO]: START DELETE /api/user/deleteUser/684a658ef21528c188f34729
+2025-06-12T05:33:12.018Z [ERROR]: User Not found 684a658ef21528c188f34729
+2025-06-12T05:33:12.033Z [INFO]: [0mDELETE /api/user/deleteUser/684a658ef21528c188f34729 [33m404[0m 67.734 ms - 28[0m
+2025-06-12T05:33:49.954Z [INFO]: START POST /api/auth/Register
+2025-06-12T05:33:50.255Z [INFO]: POST: User Created: {
+  "userName": "client",
+  "email": "client@email.com",
+  "password": "$2b$10$lpP9UVfHoY0Jcm52bugi/OzUHLd6SLTTJ4rkit6WV/O8nZodrkDqK",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "client",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "_id": "684a66bedd46b4d186cf815d",
+  "createdAt": "2025-06-12T05:33:50.210Z",
+  "updatedAt": "2025-06-12T05:33:50.210Z",
+  "__v": 0
+}
+2025-06-12T05:33:50.266Z [INFO]: [0mPOST /api/auth/Register [32m201[0m 331.246 ms - 473[0m
+2025-06-12T05:33:58.800Z [INFO]: START DELETE /api/user/deleteUser/684a66bedd46b4d186cf815d
+2025-06-12T05:33:58.855Z [INFO]: [41mUser Deleted Successfully[49m
+2025-06-12T05:33:58.857Z [INFO]: [0mDELETE /api/user/deleteUser/684a66bedd46b4d186cf815d [32m204[0m 56.739 ms - -[0m
+2025-06-12T05:34:33.055Z [ERROR]: Error: Unexpected end of input Unexpected end of input
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:125
+module.exports = {getUserController, getUsersController, getUserByIdController, updateUserController, resetPasswordController, deleteUserController}
+                                                                                                                                                    
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:34:35.424Z [ERROR]: Error: missing ) after argument list missing ) after argument list
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:118
+        logger.info(`User Deleted Successfully'`bgRed)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:34:39.186Z [ERROR]: Error: missing ) after argument list missing ) after argument list
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:118
+        logger.info(`User Deleted Successfully`bgRed)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:34:43.836Z [ERROR]: Error: Unexpected token '}' Unexpected token '}'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:118
+        logger.info(`User Deleted Successfully ${}`.bgRed)
+                                                 ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:35:15.287Z [INFO]: START POST /api/auth/Register
+2025-06-12T05:35:15.562Z [INFO]: POST: User Created: {
+  "userName": "client",
+  "email": "client@email.com",
+  "password": "$2b$10$U.tC4crzPuCsTjsaXCqO.e8SzG3AmrPfgP8lFmtCAKg71R0EeK5kW",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "client",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "_id": "684a6713c3a99663f665d513",
+  "createdAt": "2025-06-12T05:35:15.522Z",
+  "updatedAt": "2025-06-12T05:35:15.522Z",
+  "__v": 0
+}
+2025-06-12T05:35:15.575Z [INFO]: [0mPOST /api/auth/Register [32m201[0m 304.123 ms - 473[0m
+2025-06-12T05:35:24.669Z [INFO]: START DELETE /api/user/deleteUser/684a6713c3a99663f665d513
+2025-06-12T05:35:24.721Z [INFO]: [41mUser Deleted Successfully {
+  "_id": "684a6713c3a99663f665d513",
+  "userName": "client",
+  "email": "client@email.com",
+  "password": "$2b$10$U.tC4crzPuCsTjsaXCqO.e8SzG3AmrPfgP8lFmtCAKg71R0EeK5kW",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "client",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "createdAt": "2025-06-12T05:35:15.522Z",
+  "updatedAt": "2025-06-12T05:35:15.522Z",
+  "__v": 0
+}[49m
+2025-06-12T05:35:24.723Z [INFO]: [0mDELETE /api/user/deleteUser/684a6713c3a99663f665d513 [32m204[0m 54.060 ms - -[0m
+2025-06-12T05:35:52.522Z [ERROR]: Error: Unexpected end of input Unexpected end of input
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:126
+module.exports = {getUserController, getUsersController, getUserByIdController, updateUserController, resetPasswordController, deleteUserController}
+                                                                                                                                                    
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:36:00.735Z [ERROR]: Error: Unexpected end of input Unexpected end of input
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:126
+module.exports = {getUserController, getUsersController, getUserByIdController, updateUserController, resetPasswordController, deleteUserController}
+                                                                                                                                                    
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:143)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-12T05:36:36.153Z [INFO]: START POST /api/auth/Register
+2025-06-12T05:36:36.433Z [INFO]: POST: User Created: {
+  "userName": "client",
+  "email": "client@email.com",
+  "password": "$2b$10$TZtKJf9c/ZrjbYT32hM/aO1OwBKstaPB5OLYZ0sTfjZfZN1dZlYgO",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "client",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "_id": "684a6764e53676369c075d95",
+  "createdAt": "2025-06-12T05:36:36.392Z",
+  "updatedAt": "2025-06-12T05:36:36.392Z",
+  "__v": 0
+}
+2025-06-12T05:36:36.443Z [INFO]: [0mPOST /api/auth/Register [32m201[0m 310.670 ms - 473[0m
+2025-06-12T05:36:47.379Z [INFO]: START DELETE /api/user/deleteUser/684a6764e53676369c075d95
+2025-06-12T05:36:47.433Z [INFO]: [41mUser Deleted Successfully}[49m
+2025-06-12T05:36:47.434Z [DEBUG]: Deleted User {
+  "_id": "684a6764e53676369c075d95",
+  "userName": "client",
+  "email": "client@email.com",
+  "password": "$2b$10$TZtKJf9c/ZrjbYT32hM/aO1OwBKstaPB5OLYZ0sTfjZfZN1dZlYgO",
+  "address": "myaddress",
+  "phone": "1234567111",
+  "userType": "client",
+  "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s",
+  "answer": "answer",
+  "createdAt": "2025-06-12T05:36:36.392Z",
+  "updatedAt": "2025-06-12T05:36:36.392Z",
+  "__v": 0
+}
+2025-06-12T05:36:47.436Z [INFO]: [0mDELETE /api/user/deleteUser/684a6764e53676369c075d95 [32m204[0m 56.340 ms - -[0m
+2025-06-12T07:11:05.643Z [INFO]: 
+2025-06-12T07:11:12.270Z [INFO]: 
+2025-06-12T07:11:24.742Z [INFO]: [44mServer is running on port 5000[49m
+2025-06-12T07:11:38.604Z [INFO]: [44mServer is running on port 5000[49m
+2025-06-12T07:11:49.783Z [INFO]: [42mServer is running on port 5000[49m
+2025-06-12T07:12:10.820Z [INFO]: [42mServer is running on port 5000[49m
+2025-06-12T07:12:32.924Z [INFO]: [42mServer is running on port 5000[49m
+2025-06-12T07:12:34.798Z [INFO]: [42mServer is running on port 5000[49m
+2025-06-12T07:12:37.633Z [INFO]: [42mServer is running on port 5000[49m
+2025-06-12T07:12:45.629Z [INFO]: [42mServer is running on port 5000[49m
+2025-06-12T07:12:56.630Z [INFO]: [42mServer is running on port 5000[49m
+2025-06-12T07:12:59.481Z [INFO]: [42mServer is running on port 5000[49m
+2025-06-12T07:13:11.515Z [INFO]: [46mServer is running on port 5000[49m
+2025-06-12T07:13:14.818Z [INFO]: [46mServer is running on port 5000[49m
+2025-06-12T07:13:24.794Z [INFO]: [44mServer is running on port 5000[49m
+2025-06-12T07:13:28.187Z [INFO]: [44mServer is running on port 5000[49m
+2025-06-12T07:13:54.304Z [INFO]: [44mServer is running on port 5000[49m
+2025-06-12T07:14:01.948Z [INFO]: [44mServer is running on port 5000[49m
+2025-06-12T07:14:03.468Z [INFO]: [44mServer is running on port 5000[49m
+2025-06-12T07:14:12.569Z [ERROR]: Error: logger.error is not a function logger.error is not a function
+TypeError: logger.error is not a function
+    at dbConn (/home/srinidhi/Code/FOOD-APP/config/db.js:13:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-12T07:14:21.111Z [INFO]: [44mServer is running on port 5000[49m
+2025-06-12T07:14:21.659Z [ERROR]: Error: logger.error is not a function logger.error is not a function
+TypeError: logger.error is not a function
+    at dbConn (/home/srinidhi/Code/FOOD-APP/config/db.js:13:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-12T07:14:35.510Z [INFO]: [44mServer is running on port 5000[49m
+2025-06-12T07:14:35.963Z [INFO]: [42mConnected to DB ac-qylqf7l-shard-00-01.jcd6erf.mongodb.net[49m

@@ -1,0 +1,445 @@
+{"level":"error","message":"Unexpected identifier 'fadfa' Unexpected identifier 'fadfa'","stack":"/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:12\nmodule.exports = {userRouter}fadfa\n                             ^^^^^\n\nSyntaxError: Unexpected identifier 'fadfa'\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/app.js:5:24)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Unexpected identifier 'user' Unexpected identifier 'user'","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:38\n        const user = await User.findOne({_id:userId})\n              ^^^^\n\nSyntaxError: Unexpected identifier 'user'\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:74)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Missing initializer in const declaration Missing initializer in const declaration","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:50\nconst updateUserController()\n      ^^^^^^^^^^^^^^^^^^^^\n\nSyntaxError: Missing initializer in const declaration\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:74)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Missing initializer in const declaration Missing initializer in const declaration","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:50\nconst updateUserController\n      ^^^^^^^^^^^^^^^^^^^^\n\nSyntaxError: Missing initializer in const declaration\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:74)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Unexpected token ')' Unexpected token ')'","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:54\n        next(new)\n                ^\n\nSyntaxError: Unexpected token ')'\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:74)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Unexpected token '}' Unexpected token '}'","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:53\n    } catch (error) {\n    ^\n\nSyntaxError: Unexpected token '}'\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:74)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Unexpected token '}' Unexpected token '}'","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:52\n        const user = User.findById({_id:req.})\n                                            ^\n\nSyntaxError: Unexpected token '}'\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:74)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"update is not defined update is not defined","stack":"ReferenceError: update is not defined\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:59:81)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:74)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"argument handler is required argument handler is required","stack":"TypeError: argument handler is required\n    at Route.<computed> [as put] (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:221:13)\n    at Router.<computed> [as put] (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:448:19)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:11:12)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/app.js:5:24)"}
+{"level":"error","message":"argument handler is required argument handler is required","stack":"TypeError: argument handler is required\n    at Route.<computed> [as put] (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:221:13)\n    at Router.<computed> [as put] (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:448:19)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:11:12)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/app.js:5:24)"}
+{"level":"error","message":"argument handler is required argument handler is required","stack":"TypeError: argument handler is required\n    at Route.<computed> [as put] (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:221:13)\n    at Router.<computed> [as put] (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:448:19)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:11:12)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/app.js:5:24)"}
+{"level":"error","message":"argument handler is required argument handler is required","stack":"TypeError: argument handler is required\n    at Route.<computed> [as put] (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:221:13)\n    at Router.<computed> [as put] (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:448:19)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:11:12)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/app.js:5:24)"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')","stack":"Error: TypeError: Cannot read properties of undefined (reading 'id')\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:56:14)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:14:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')","stack":"Error: TypeError: Cannot read properties of undefined (reading 'id')\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:56:14)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:14:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')","stack":"Error: TypeError: Cannot read properties of undefined (reading 'id')\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:56:14)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:14:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')","stack":"Error: TypeError: Cannot read properties of undefined (reading 'id')\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:56:14)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:15:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')","stack":"Error: TypeError: Cannot read properties of undefined (reading 'id')\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:56:14)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:15:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"error","message":"Unexpected token ')' Unexpected token ')'","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:52\n        console.log(req.session.user.)\n                                     ^\n\nSyntaxError: Unexpected token ')'\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')","stack":"Error: TypeError: Cannot read properties of undefined (reading 'id')\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:56:14)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:15:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"error","message":"TypeError: req.json is not a function TypeError: req.json is not a function","stack":"Error: TypeError: req.json is not a function\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:56:14)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:15:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"error","message":"Unexpected token '}' Unexpected token '}'","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:56\n        }\n        ^\n\nSyntaxError: Unexpected token '}'\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Missing initializer in destructuring declaration Missing initializer in destructuring declaration","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:57\n        const {userName,}\n              ^^^^^^^^^^^\n\nSyntaxError: Missing initializer in destructuring declaration\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Missing initializer in destructuring declaration Missing initializer in destructuring declaration","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:57\n        const {userName,address}\n              ^^^^^^^^^^^^^^^^^^\n\nSyntaxError: Missing initializer in destructuring declaration\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Missing initializer in destructuring declaration Missing initializer in destructuring declaration","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:57\n        const {userName,address}\n              ^^^^^^^^^^^^^^^^^^\n\nSyntaxError: Missing initializer in destructuring declaration\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Missing initializer in destructuring declaration Missing initializer in destructuring declaration","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:57\n        const {userName,address}\n              ^^^^^^^^^^^^^^^^^^\n\nSyntaxError: Missing initializer in destructuring declaration\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Unexpected string Unexpected string","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:62\n        res.status(200).send({'message'})\n                              ^^^^^^^^^\n\nSyntaxError: Unexpected string\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"TypeError: Cannot destructure property 'userName' of 'req.body' as it is undefined. TypeError: Cannot destructure property 'userName' of 'req.body' as it is undefined.","stack":"Error: TypeError: Cannot destructure property 'userName' of 'req.body' as it is undefined.\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:66:14)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:15:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"error","message":"TypeError: user.save is not a function TypeError: user.save is not a function","stack":"Error: TypeError: user.save is not a function\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:66:14)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:15:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"error","message":"TypeError: User.save is not a function TypeError: User.save is not a function","stack":"Error: TypeError: User.save is not a function\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:66:14)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:15:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"error","message":"TypeError: User.Save is not a function TypeError: User.Save is not a function","stack":"Error: TypeError: User.Save is not a function\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:66:14)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:15:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"error","message":"Identifier 'result' has already been declared Identifier 'result' has already been declared","stack":"/home/srinidhi/Code/FOOD-APP/controllers/authController.js:48\n        const result = await User.create(req.body)\n              ^\n\nSyntaxError: Identifier 'result' has already been declared\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/authRouter.js:2:49)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"TypeError: user.Save is not a function TypeError: user.Save is not a function","stack":"Error: TypeError: user.Save is not a function\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:66:14)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:15:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"error","message":"TypeError: user.Save is not a function TypeError: user.Save is not a function","stack":"Error: TypeError: user.Save is not a function\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:66:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"Invalid or unexpected token Invalid or unexpected token","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:27\n        res.json({'users})\n                  ^^^^^^^^\n\nSyntaxError: Invalid or unexpected token\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Invalid or unexpected token Invalid or unexpected token","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:27\n        res.json({'Total No of Usersusers})\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n\nSyntaxError: Invalid or unexpected token\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Unexpected token ',' Unexpected token ','","stack":"/home/srinidhi/Code/FOOD-APP/controllers/userController.js:27\n        res.json({'Total No of Users':,users})\n                                      ^\n\nSyntaxError: Unexpected token ','\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"next is not defined next is not defined","stack":"ReferenceError: next is not defined\n    at getUsersController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:29:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"ReferenceError: user is not defined ReferenceError: user is not defined","stack":"Error: ReferenceError: user is not defined\n    at getUsersController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:29:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"answer is not defined answer is not defined","stack":"ReferenceError: answer is not defined\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/models/userModel.js:34:5)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/controllers/authController.js:2:18)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"Unexpected token '}' Unexpected token '}'","stack":"/home/srinidhi/Code/FOOD-APP/controllers/authController.js:16\n    })\n    ^\n\nSyntaxError: Unexpected token '}'\n    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/authRouter.js:2:49)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"error","message":"ReferenceError: logger is not defined ReferenceError: logger is not defined","stack":"Error: ReferenceError: logger is not defined\n    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:66:14)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:15:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"error","message":"requ is not defined requ is not defined","stack":"ReferenceError: requ is not defined\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:3:18)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Module.require (node:internal/modules/cjs/loader:1311:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)"}
+{"level":"debug","message":"Deubg Logs"}
+{"level":"info","message":"info Logs"}
+{"level":"info","message":"info Logs"}
+{"level":"info","message":"info Logs"}
+{"level":"info","message":"info Logs"}
+{"level":"debug","message":"invalid signature","name":"JsonWebTokenError"}
+{"level":"error","message":"mext is not defined mext is not defined","stack":"ReferenceError: mext is not defined\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:18:9)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15\n    at processParams (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:582:12)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:291:5)\n    at Function.handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:186:3)"}
+{"level":"error","message":"invalid signature invalid signature","name":"JsonWebTokenError","stack":"JsonWebTokenError: invalid signature\n    at /home/srinidhi/Code/FOOD-APP/node_modules/jsonwebtoken/verify.js:171:19\n    at getSecret (/home/srinidhi/Code/FOOD-APP/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/home/srinidhi/Code/FOOD-APP/node_modules/jsonwebtoken/verify.js:101:10)\n    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:7:29)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)\n    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)\n    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15"}
+{"level":"info","message":"info Logs"}
+{"level":"debug","message":"invalid token","name":"JsonWebTokenError"}
+{"level":"debug","message":"invalid token","name":"JsonWebTokenError"}
+2025-06-11T18:17:32.277Z [DEBUG]: invalid token
+2025-06-11T18:19:38.861Z [DEBUG]: JsonWebTokenError: invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/srinidhi/Code/FOOD-APP/node_modules/jsonwebtoken/verify.js:82:17)
+    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:7:29)
+    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)
+    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)
+    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)
+    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15
+    at processParams (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:582:12)
+    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:291:5)
+2025-06-11T18:20:57.366Z [DEBUG]: JsonWebTokenError: invalid token
+2025-06-11T18:21:39.101Z [DEBUG]: JsonWebTokenError: invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/srinidhi/Code/FOOD-APP/node_modules/jsonwebtoken/verify.js:82:17)
+    at userAuth (/home/srinidhi/Code/FOOD-APP/middlewares/authMiddleware.js:7:29)
+    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)
+    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/route.js:117:3)
+    at handle (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/srinidhi/Code/FOOD-APP/node_modules/router/lib/layer.js:152:17)
+    at /home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:295:15
+    at processParams (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:582:12)
+    at next (/home/srinidhi/Code/FOOD-APP/node_modules/router/index.js:291:5)
+2025-06-11T18:21:56.535Z [DEBUG]: JsonWebTokenError: invalid token
+2025-06-11T18:22:11.796Z [DEBUG]: TokenExpiredError: jwt expired
+2025-06-11T18:22:52.740Z [ERROR]: Error: Unexpected token ')' Unexpected token ')'
+2025-06-11T18:23:00.153Z [ERROR]: Error: Unexpected token ')' Unexpected token ')'
+2025-06-11T18:23:14.698Z [ERROR]: TokenExpiredError: jwt expired
+2025-06-11T18:31:14.528Z [ERROR]: Error: User validation failed: password: password is required User validation failed: password: password is required
+2025-06-11T18:31:53.391Z [ERROR]: Error: User validation failed: password: password is required User validation failed: password: password is required
+ValidationError: User validation failed: password: password is required
+    at Document.invalidate (/home/srinidhi/Code/FOOD-APP/node_modules/mongoose/lib/document.js:3343:32)
+    at /home/srinidhi/Code/FOOD-APP/node_modules/mongoose/lib/document.js:3104:17
+    at /home/srinidhi/Code/FOOD-APP/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-06-11T18:33:14.272Z [ERROR]: Error: User validation failed: password: password is required broo User validation failed: password: password is required broo
+ValidationError: User validation failed: password: password is required broo
+    at Document.invalidate (/home/srinidhi/Code/FOOD-APP/node_modules/mongoose/lib/document.js:3343:32)
+    at /home/srinidhi/Code/FOOD-APP/node_modules/mongoose/lib/document.js:3104:17
+    at /home/srinidhi/Code/FOOD-APP/node_modules/mongoose/lib/schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-06-11T18:35:05.141Z [ERROR]: Error: Unexpected identifier 'resultres' Unexpected identifier 'resultres'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:63
+        cosnt resultres.status(200).send({'message':'UserUpdatedSuccessfully',user})
+              ^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'resultres'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T18:35:07.189Z [ERROR]: Error: Unexpected identifier 'result' Unexpected identifier 'result'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:63
+        cosnt result = res.status(200).send({'message':'UserUpdatedSuccessfully',user})
+              ^^^^^^
+
+SyntaxError: Unexpected identifier 'result'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T18:35:12.376Z [ERROR]: Error: Unexpected identifier 'result' Unexpected identifier 'result'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:63
+        cosnt result = res.status(200).send({'message':'UserUpdatedSuccessfully',user})
+              ^^^^^^
+
+SyntaxError: Unexpected identifier 'result'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T18:35:14.150Z [ERROR]: Error: Unexpected identifier 'result' Unexpected identifier 'result'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:63
+        cosnt result = res.status(200).send({'message':'UserUpdatedSuccessfully',user})
+              ^^^^^^
+
+SyntaxError: Unexpected identifier 'result'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T18:35:17.185Z [ERROR]: Error: Unexpected identifier 'result' Unexpected identifier 'result'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:63
+        cosnt result = res.status(200).send({'message':'UserUpdatedSuccessfully',user})
+              ^^^^^^
+
+SyntaxError: Unexpected identifier 'result'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T18:35:21.244Z [ERROR]: Error: Identifier 'result' has already been declared Identifier 'result' has already been declared
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:63
+        const result = res.status(200).send({'message':'UserUpdatedSuccessfully',user})
+              ^
+
+SyntaxError: Identifier 'result' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T18:35:36.649Z [DEBUG]: {
+  _id: new ObjectId('6845b138bc3786132fb42ff2'),
+  userName: 'myname6',
+  email: 'myname6@email.com',
+  address: 'newAddress',
+  phone: '111111111',
+  userType: 'admin',
+  profile: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s',
+  createdAt: 2025-06-08T15:50:16.124Z,
+  updatedAt: 2025-06-11T17:39:26.560Z,
+  __v: 0
+}
+2025-06-11T18:35:46.505Z [DEBUG]: {
+  _id: new ObjectId('6845b138bc3786132fb42ff2'),
+  userName: 'myname6',
+  email: 'myname6@email.com',
+  address: 'newAddress',
+  phone: '111111111',
+  userType: 'admin',
+  profile: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s',
+  createdAt: 2025-06-08T15:50:16.124Z,
+  updatedAt: 2025-06-11T17:39:26.560Z,
+  __v: 0
+}
+2025-06-11T18:36:23.625Z [DEBUG]: [object Object]
+2025-06-11T18:36:41.083Z [ERROR]: Error: Unexpected token ')' Unexpected token ')'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:64
+        logger.debug(result1.satus,result1.)
+                                           ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T18:36:46.860Z [DEBUG]: undefined
+2025-06-11T18:37:29.857Z [ERROR]: Error: Unexpected token ')' Unexpected token ')'
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:63
+        logger.info('200:'+)
+                           ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T18:38:09.258Z [INFO]: PUT, UpdateUser 200:
+2025-06-11T18:38:22.054Z [INFO]: PUT, UpdateUser 200:{
+  _id: new ObjectId('6845b138bc3786132fb42ff2'),
+  userName: 'myname6',
+  email: 'myname6@email.com',
+  address: 'newAddress',
+  phone: '111111111',
+  userType: 'admin',
+  profile: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s',
+  createdAt: 2025-06-08T15:50:16.124Z,
+  updatedAt: 2025-06-11T17:39:26.560Z,
+  __v: 0
+}
+2025-06-11T18:39:16.056Z [DEBUG]: PUT, UpdateUser 200:{
+  _id: new ObjectId('6845b138bc3786132fb42ff2'),
+  userName: 'myname6',
+  email: 'myname6@email.com',
+  address: 'newAddress',
+  phone: '111111111',
+  userType: 'admin',
+  profile: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s',
+  createdAt: 2025-06-08T15:50:16.124Z,
+  updatedAt: 2025-06-11T17:39:26.560Z,
+  __v: 0
+}
+2025-06-11T18:40:50.576Z [ERROR]: Error: Invalid or unexpected token Invalid or unexpected token
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:53
+        logger.debug('PUT, UpdateUser Request:+req.body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T18:40:54.227Z [ERROR]: Error: Invalid or unexpected token Invalid or unexpected token
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:53
+        logger.debug('PUT, UpdateUser Request:${req.body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T18:40:57.569Z [ERROR]: Error: Invalid or unexpected token Invalid or unexpected token
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:53
+        logger.debug('PUT, UpdateUser Request:${req.body}`)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T18:41:09.817Z [ERROR]: Error: Missing } in template expression Missing } in template expression
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:53
+        logger.debug(`PUT, UpdateUser Request:${req.${req.body}`)
+                                                ^^^^^
+
+SyntaxError: Missing } in template expression
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T18:41:15.699Z [ERROR]: Error: Missing } in template expression Missing } in template expression
+/home/srinidhi/Code/FOOD-APP/controllers/userController.js:53
+        logger.debug(`PUT, UpdateUser Request:${req.session.user.id${req.body}`)
+                                                ^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Missing } in template expression
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/srinidhi/Code/FOOD-APP/routes/userRoutes.js:2:96)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-06-11T18:41:24.225Z [DEBUG]: PUT, UpdateUser Request:6845b138bc3786132fb42ff2 
+ [object Object]
+2025-06-11T18:41:34.248Z [ERROR]: Error: MongooseError: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+Error: MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at updateUserController (/home/srinidhi/Code/FOOD-APP/controllers/userController.js:68:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-11T18:42:09.752Z [DEBUG]: PUT, UpdateUser Request:6845b138bc3786132fb42ff2 
+ [object Object]
+2025-06-11T18:42:09.860Z [DEBUG]: PUT, UpdateUser Output 200:{
+  _id: new ObjectId('6845b138bc3786132fb42ff2'),
+  userName: 'myname6',
+  email: 'myname6@email.com',
+  address: 'newAddress',
+  phone: '111111111',
+  userType: 'admin',
+  profile: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s',
+  createdAt: 2025-06-08T15:50:16.124Z,
+  updatedAt: 2025-06-11T17:39:26.560Z,
+  __v: 0
+}
+2025-06-11T18:43:03.465Z [DEBUG]: PUT, UpdateUser Request:6845b138bc3786132fb42ff2 
+ [object Object]
+2025-06-11T18:43:03.575Z [DEBUG]: PUT, UpdateUser Output 200:{
+  _id: new ObjectId('6845b138bc3786132fb42ff2'),
+  userName: 'myname6',
+  email: 'myname6@email.com',
+  address: 'newAddress',
+  phone: '111111111',
+  userType: 'admin',
+  profile: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s',
+  createdAt: 2025-06-08T15:50:16.124Z,
+  updatedAt: 2025-06-11T17:39:26.560Z,
+  __v: 0
+}
+2025-06-11T18:44:15.758Z [DEBUG]: PUT, UpdateUser Request:6845b138bc3786132fb42ff2 
+ {
+  "userName": "newUserName",
+  "phone": "111111111",
+  "address": "newAddress"
+}
+2025-06-11T18:44:15.876Z [DEBUG]: PUT, UpdateUser Output 200:{
+  _id: new ObjectId('6845b138bc3786132fb42ff2'),
+  userName: 'myname6',
+  email: 'myname6@email.com',
+  address: 'newAddress',
+  phone: '111111111',
+  userType: 'admin',
+  profile: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s',
+  createdAt: 2025-06-08T15:50:16.124Z,
+  updatedAt: 2025-06-11T17:39:26.560Z,
+  __v: 0
+}
+2025-06-11T18:45:36.353Z [DEBUG]: PUT, UpdateUser Request:6845b138bc3786132fb42ff2 
+ {
+  "userName": "newUserName",
+  "phone": "111111111",
+  "address": "newAddress"
+}
+2025-06-11T18:45:36.466Z [DEBUG]: PUT, UpdateUser Output 200:{
+  _id: new ObjectId('6845b138bc3786132fb42ff2'),
+  userName: 'myname6',
+  email: 'myname6@email.com',
+  address: 'newAddress',
+  phone: '111111111',
+  userType: 'admin',
+  profile: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s',
+  createdAt: 2025-06-08T15:50:16.124Z,
+  updatedAt: 2025-06-11T17:39:26.560Z,
+  __v: 0
+}
+2025-06-11T18:46:44.106Z [DEBUG]: PUT, UpdateUser Request:6845b138bc3786132fb42ff2 
+ {
+  "userName": "newUserName",
+  "phone": "111111111",
+  "address": "newAddress"
+}
+2025-06-11T18:46:44.221Z [DEBUG]: PUT, UpdateUser Response 200:
+{
+  _id: new ObjectId('6845b138bc3786132fb42ff2'),
+  userName: 'myname6',
+  email: 'myname6@email.com',
+  address: 'newAddress',
+  phone: '111111111',
+  userType: 'admin',
+  profile: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTGZPBgb1rrNuzDZbUT5jFmP18ICdqLaf2g&s',
+  createdAt: 2025-06-08T15:50:16.124Z,
+  updatedAt: 2025-06-11T17:39:26.560Z,
+  __v: 0
+}
