@@ -4,6 +4,7 @@ const {testRouter} = require('./testRouter')
 const { authRouter } = require('./authRouter')
 const { userRouter } = require('./userRoutes')
 const {logger} = require('../logger/logger')
+const { restaurantRouter } = require('./restarauntRouter')
 const api = express.Router()
 
 //routes
@@ -17,6 +18,7 @@ api.use('/user',userRouter)
 api.get('/',(req,res)=>{
     res.json({"message":"Welcome to API page"})
 })
+api.use('/restaurant',restaurantRouter)
 
 
 
