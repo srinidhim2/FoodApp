@@ -74,4 +74,19 @@ const getRestaurantById = async (req,res,next)=>{
     }
 }
 
-module.exports = {createRestaurantController, getAllRestaurantsController, getRestaurantById}
+const deleteRestaurantController = async (req, res, next)=>{
+    try{
+        const restaurantId = req.params.id
+        const restaurant = await Restaurant.findByIdAndDelete({_id:restaurantId})
+        if(restaurant){
+            logger.info(restaurant.title+' is deleted')
+            return res.status(200).send({'message':'Deleted Successfully',restaurant})
+        }
+        logger.error('Restaurant Not found')
+        return res.status(404).send({'message':'Restaurant not found'})
+    }catch(error){
+        next(error)
+    }
+}
+
+module.exports = {createRestaurantController, getAllRestaurantsController, getRestaurantById, deleteRestaurantController}
