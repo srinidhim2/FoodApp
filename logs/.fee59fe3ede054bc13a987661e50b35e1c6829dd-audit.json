@@ -6,9 +6,14 @@
     "auditLog": "/home/srinidhi/Code/FOOD-APP/logs/.fee59fe3ede054bc13a987661e50b35e1c6829dd-audit.json",
     "files": [
         {
-            "date": 1749669172965,
-            "name": "/home/srinidhi/Code/FOOD-APP/logs/logfile_2025-06-12_bkp.log",
-            "hash": "e580cda213bf45dbe01560b1db851991d8d911d698d989f3dc23faf1c90780c8"
+            "date": 1750266416608,
+            "name": "/home/srinidhi/Code/FOOD-APP/logs/logfile_2025-06-18_bkp.log",
+            "hash": "2927a4c28b70d68a6392fdabd0c5f4799f7349bdab9bdf8526598e1777e96d58"
+        },
+        {
+            "date": 1750751266456,
+            "name": "/home/srinidhi/Code/FOOD-APP/logs/logfile_2025-06-24_bkp.log",
+            "hash": "42fea999f7ff2c7831a6feffd2a7bd2a96909a20211615f3db5be5031e4a646a"
         }
     ],
     "hashType": "sha256"
